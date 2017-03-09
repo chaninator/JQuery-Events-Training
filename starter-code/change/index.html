@@ -1,23 +1,36 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-		  <title>Change</title>
 
-		<!-- CSS -->
-		<link rel="stylesheet" href="css/styles.css">
+<head>
+  <meta charset="utf-8">
+  <title>Change</title>
 
-    <!-- JS -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="base.js"></script>
-	</head>
-	<body>
-    <h1>Add the numbers!</h1>
-    <p>Last refresh: <span id="time"></span></p>
-    <!-- <form> -->
-      <input type="number" class="add" id="left"> +
-      <input type="number" class="add" id="right"> =
-      <input type="number" id="total"><br>
-    <!-- </form> -->
-	</body>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="base.js"></script>
+</head>
+
+<body>
+  <header>
+		<nav>
+			<ul>
+				<li><a href="../ready/index.html">READY</a></li>
+				<li> <a href="../click/index.html">CLICK</a></li>
+			</ul>
+		</nav>
+	</header>
+  <h1>Add the numbers!</h1>
+  <p>Last refresh: <span id="time"></span></p>
+  <!-- <form> -->
+  <input type="number" class="add" id="left"> +
+  <input type="number" class="add" id="right"> =
+  <!-- <input type="number" class="add" id="random"> = -->
+  <input type="number" id="total"><br>
+  <input type="button" name="clear" id="btn-clear" value="CLEAR">
+  <!-- </form> -->
+</body>
+
 </html>
